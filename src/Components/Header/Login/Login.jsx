@@ -24,7 +24,6 @@ const Login = () => {
     })
  }
 
-
  const handleGooglesSignIn = () => {
     signInWithPopup(auth, googleProvider)
     .then(result => {
