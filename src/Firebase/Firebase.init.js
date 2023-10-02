@@ -1,9 +1,9 @@
-// Import the functions you need from the SDKs you need
+// Import the functions you need from the SDKs you need .n
 import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// TODO: Add SDKs for Firebase products that you want to use .n
+// https://firebase.google.com/docs/web/setup#available-libraries .n
 
-// Your web app's Firebase configuration (Do not ever share, show or git push your firebaseConfig )
+// Your web app's Firebase configuration (Do not ever share, show or git push your firebaseConfig ) .n
 const firebaseConfig = {
   apiKey: "AIzaSyA-8gWwzZtN3oFmQBnykWD6Y1jCFEgTFTM",
   authDomain: "simple-firebase-acbe7.firebaseapp.com",
@@ -13,6 +13,6 @@ const firebaseConfig = {
   appId: "1:73688075450:web:aceeac0aab8ae019204683"
 };
 
-// Initialize Firebase
+// Initialize Firebase .n
 const app = initializeApp(firebaseConfig);
 export default app;
